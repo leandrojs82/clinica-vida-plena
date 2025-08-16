@@ -1,0 +1,42 @@
+/* Reset mínimo */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+img { max-width: 100%; height: auto; display: block; }
+
+/* Base */
+body { font-family: Arial, Helvetica, sans-serif; line-height: 1.5; color: #222; background: #f7f7f7; }
+main { max-width: 960px; margin: 16px auto; padding: 0 12px; background: #fff; }
+
+/* Navegação */
+nav { background: #1987d1; }
+nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; }
+nav a { color: #fff; text-decoration: none; padding: 12px 16px; display: block; }
+nav a:hover { background: rgba(255,255,255,0.15); }
+
+/* Header */
+header h1 { margin: 0; padding: 12px; text-align: center; }
+header img { width: 100%; }
+
+/* Tabela */
+table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+th { background: #eee; }
+
+/* Formulário */
+label { font-weight: bold; }
+input[type="text"], input[type="email"], textarea { width: 100%; padding: 8px; border: 1px solid #bbb; }
+button { padding: 8px 12px; border: 0; background: #1987d1; color: #fff; cursor: pointer; }
+button[type="reset"] { background: #666; }
+
+/* Rodapé */
+footer { text-align: center; background: #222; color: #eee; padding: 14px; }
+
+.btn-voltar {
+  display: inline-block;
+  background: #1987d1;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+.btn-voltar:hover { filter: brightness(0.95); }
